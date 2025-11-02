@@ -11,10 +11,18 @@ function Crack_AI_GUI_Complete
     Y_type      = data.CrackType;
     Y_reason    = data.CrackReason;
     Y_number    = data.NumberOfCracks;
+
+    % Existing columns
     Y_refpoint  = data.ReferencePoint;        
     Y_c1dist    = data.Crack1Distance_mm_;    
     Y_c2dist    = data.Crack2Distance_mm_;    
     Y_c3dist    = data.Crack3Distance_mm_;    
+
+    % NEW columns for mode shapes
+    Y_mode1     = data.Mode1Shape_mm_;
+    Y_mode2     = data.Mode2Shape_mm_;
+    Y_mode3     = data.Mode3Shape_mm_;
+
 
     % Split data
     cv = cvpartition(size(X, 1), 'HoldOut', 0.2);
@@ -33,6 +41,11 @@ function Crack_AI_GUI_Complete
     Yc2_train = Y_c2dist(trainIdx);    Yc2_test = Y_c2dist(testIdx);
     Yc3_train = Y_c3dist(trainIdx);    Yc3_test = Y_c3dist(testIdx);
 
+    % Mode shape data
+    Ym1_train = Y_mode1(trainIdx);     Ym1_test = Y_mode1(testIdx);
+    Ym2_train = Y_mode2(trainIdx);     Ym2_test = Y_mode2(testIdx);
+    Ym3_train = Y_mode3(trainIdx);     Ym3_test = Y_mode3(testIdx);
+
     %% STEP 2: Train Models
     disp("Training models...");
     model_present  = TreeBagger(100, X_train, Yp_train, 'Method', 'classification');
@@ -42,12 +55,15 @@ function Crack_AI_GUI_Complete
     model_number   = TreeBagger(100, X_train, Yn_train, 'Method', 'classification');
     model_refpoint = TreeBagger(100, X_train, Yref_train, 'Method', 'classification');
 
-    % Distances – regression
+    % Distances and Mode Shapes – regression
     model_c1dist   = TreeBagger(100, X_train, Yc1_train, 'Method', 'regression');
     model_c2dist   = TreeBagger(100, X_train, Yc2_train, 'Method', 'regression');
     model_c3dist   = TreeBagger(100, X_train, Yc3_train, 'Method', 'regression');
+    model_mode1    = TreeBagger(100, X_train, Ym1_train, 'Method', 'regression');
+    model_mode2    = TreeBagger(100, X_train, Ym2_train, 'Method', 'regression');
+    model_mode3    = TreeBagger(100, X_train, Ym3_train, 'Method', 'regression');
 
-    %% STEP 3: Evaluate Models
+    %% STEP 3: Evaluate Classification Models (with confusion matrices)
     disp("Evaluating models...");
     [acc1, prec1, rec1, f11] = evalAccuracyCM(Yp_test,   predict(model_present,  X_test),  'Crack Present');
     [acc2, prec2, rec2, f12] = evalAccuracyCM(Yl_test,   predict(model_location, X_test),  'Crack Location');
@@ -65,56 +81,58 @@ function Crack_AI_GUI_Complete
     %% STEP 4: Launch GUI
     createGUI(model_present, model_location, model_type, model_reason, ...
               model_number, model_refpoint, ...
-              model_c1dist, model_c2dist, model_c3dist, overall);
+              model_c1dist, model_c2dist, model_c3dist, ...
+              model_mode1, model_mode2, model_mode3, overall);
 end
 
-%% Helper Function: Accuracy + Precision/Recall/F1 + Confusion Matrix
+
+%% Helper Function: Accuracy + Precision/Recall/F1 + Confusion Matrix Plot
 function [acc, macroPrecision, macroRecall, macroF1] = evalAccuracyCM(Ytrue, Ypred, label)
-    % Convert to categorical
     Ypred = categorical(strtrim(string(Ypred)));
     Ytrue = categorical(strtrim(string(Ytrue)));
-
-    % Accuracy
     acc = mean(Ytrue == Ypred) * 100;
 
-    % Confusion matrix counts
-    [C, ~] = confusionmat(Ytrue, Ypred);
+    [C, classes] = confusionmat(Ytrue, Ypred);
 
-    % Precision, Recall, F1 (per class)
     precision = diag(C) ./ sum(C,1)';   
     recall    = diag(C) ./ sum(C,2);    
     f1        = 2 * (precision .* recall) ./ (precision + recall);
 
-    % Handle NaN
     precision(isnan(precision)) = 0;
     recall(isnan(recall)) = 0;
     f1(isnan(f1)) = 0;
 
-    % Macro averages
     macroPrecision = mean(precision) * 100;
     macroRecall    = mean(recall) * 100;
     macroF1        = mean(f1) * 100;
 
-    % Print metrics in console
     fprintf('\n--- %s ---\n', label);
     fprintf('Accuracy: %.2f%%\n', acc);
-    fprintf('Precision (macro): %.2f%%\n', macroPrecision);
-    fprintf('Recall (macro): %.2f%%\n', macroRecall);
-    fprintf('F1-score (macro): %.2f%%\n', macroF1);
+    fprintf('Precision: %.2f%%\n', macroPrecision);
+    fprintf('Recall: %.2f%%\n', macroRecall);
+    fprintf('F1-score: %.2f%%\n', macroF1);
 
-    % Confusion matrix plot
-    figure('Name', [label ' - Confusion Matrix'], 'NumberTitle', 'off');
-    cm = confusionchart(Ytrue, Ypred);
-    cm.Title = [label ' - Confusion Matrix'];
-    cm.RowSummary = 'row-normalized';
-    cm.ColumnSummary = 'column-normalized';
+    % 🔹 Confusion Matrix Plot (separate figure for each model)
+    figure('Name', ['Confusion Matrix - ' label], 'NumberTitle', 'off');
+    cm = confusionchart(Ytrue, Ypred, ...
+        'Title', ['Confusion Matrix - ' label], ...
+        'RowSummary', 'row-normalized', ...
+        'ColumnSummary', 'column-normalized');
+    cm.FontSize = 12;
 end
 
-%% STEP 5: GUI Creation
-function createGUI(model_present, model_location, model_type, model_reason, ...
-                   model_number, model_refpoint, model_c1dist, model_c2dist, model_c3dist, overall)
 
-    fig = uifigure('Name', 'Crack Prediction AI', 'Position', [600 300 560 560]);
+%% GUI and Prediction Logic (unchanged)
+% ------------------------------------------------------------
+% [Your createGUI() and predictCrackInfo() functions remain unchanged below]
+% ------------------------------------------------------------
+
+function createGUI(model_present, model_location, model_type, model_reason, ...
+                   model_number, model_refpoint, ...
+                   model_c1dist, model_c2dist, model_c3dist, ...
+                   model_mode1, model_mode2, model_mode3, overall)
+
+    fig = uifigure('Name', 'Crack Prediction AI', 'Position', [600 300 580 580]);
     uilabel(fig, 'Text', 'Enter Modal Frequencies', 'FontSize', 14, 'FontWeight', 'bold', ...
         'Position', [150 500 250 30]);
 
@@ -127,44 +145,45 @@ function createGUI(model_present, model_location, model_type, model_reason, ...
     uilabel(fig, 'Text', 'Freq3 (Hz):', 'Position', [50 360 80 22]);
     f3 = uieditfield(fig, 'numeric', 'Position', [150 360 150 22]);
 
-    % Results text area (for predictions)
-    resultArea = uitextarea(fig, 'Position', [50 140 440 200], ...
+    resultArea = uitextarea(fig, 'Position', [50 140 460 200], ...
         'Editable', 'off', 'FontSize', 13);
 
-    % Metrics text area (for overall performance)
-    metricsText = sprintf("📊 Overall Model Performance (avg across classifiers):\n\nAccuracy: %.2f%%\nPrecision: %.2f%%\nRecall: %.2f%%\nF1-score: %.2f%%", ...
+    metricsText = sprintf("📊 Overall Model Performance:\n\nAccuracy: %.2f%%\nPrecision: %.2f%%\nRecall: %.2f%%\nF1-score: %.2f%%", ...
         overall.Accuracy, overall.Precision, overall.Recall, overall.F1);
 
     uitextarea(fig, 'Value', metricsText, 'Editable', 'off', ...
-        'FontSize', 12, 'Position', [50 20 440 100]);
+        'FontSize', 12, 'Position', [50 20 460 100]);
 
-    % Predict button
     uibutton(fig, 'Text', 'Predict Crack Info', 'Position', [170 320 160 30], ...
         'ButtonPushedFcn', @(btn, event) predictCrackInfo(f1.Value, f2.Value, f3.Value, ...
         model_present, model_location, model_type, model_reason, ...
-        model_number, model_refpoint, model_c1dist, model_c2dist, model_c3dist, resultArea));
+        model_number, model_refpoint, ...
+        model_c1dist, model_c2dist, model_c3dist, ...
+        model_mode1, model_mode2, model_mode3, resultArea));
 end
 
-%% STEP 6: Prediction Logic
+
 function predictCrackInfo(f1, f2, f3, model_present, model_location, model_type, ...
                           model_reason, model_number, model_refpoint, ...
-                          model_c1dist, model_c2dist, model_c3dist, resultArea)
+                          model_c1dist, model_c2dist, model_c3dist, ...
+                          model_mode1, model_mode2, model_mode3, resultArea)
 
     input = [f1, f2, f3];
     crackPresent = predict(model_present,  input);
     crackType    = predict(model_type,     input);
     crackLoc     = predict(model_location, input);
     crackReason  = predict(model_reason,   input);
-    crackNumber  = predict(model_number,   input);
-    crackNumber  = str2double(crackNumber{1});  
+    crackNumber  = str2double(predict(model_number, input));
     refPoint     = predict(model_refpoint, input);
 
-    % Regression predictions for crack distances
+    % Regression predictions
     c1 = predict(model_c1dist, input);
     c2 = predict(model_c2dist, input);
     c3 = predict(model_c3dist, input);
+    m1 = predict(model_mode1,  input);
+    m2 = predict(model_mode2,  input);
+    m3 = predict(model_mode3,  input);
 
-    % Build distance message
     distMsg = "";
     if crackNumber >= 1 && ~isnan(c1)
         distMsg = distMsg + sprintf("  Crack 1 Distance: %.2f mm\n", c1);
@@ -179,13 +198,15 @@ function predictCrackInfo(f1, f2, f3, model_present, model_location, model_type,
         distMsg = "  No crack distances available.\n";
     end
 
-    % Build message
-    if strcmp(crackPresent, 'No')
-        msg = sprintf("✅ No crack detected.\n\nNumber of Cracks: %d\nReference Point: %s\n%s\nFrequencies:\nFreq1 = %.2f\nFreq2 = %.2f\nFreq3 = %.2f", ...
-            crackNumber, refPoint{1}, distMsg, f1, f2, f3);
+    % Mode shape message
+    modeMsg = sprintf("\nPredicted Mode Shapes (mm):\n  Mode 1: %.3f\n  Mode 2: %.3f\n  Mode 3: %.3f\n", m1, m2, m3);
+
+    if strcmpi(crackPresent, 'No')
+        msg = sprintf("✅ No crack detected.\n\nNumber of Cracks: %d\nReference Point: %s\n%s%s\nFrequencies:\nFreq1 = %.2f\nFreq2 = %.2f\nFreq3 = %.2f", ...
+            crackNumber, refPoint{1}, distMsg, modeMsg, f1, f2, f3);
     else
-        msg = sprintf("⚠ Crack Detected!\nLocation: %s\nType: %s\nNumber of Cracks: %d\nReference Point: %s\nCrack Distances:\n%sReason: %s\n\nFrequencies:\nFreq1 = %.2f\nFreq2 = %.2f\nFreq3 = %.2f", ...
-            crackLoc{1}, crackType{1}, crackNumber, refPoint{1}, distMsg, crackReason{1}, f1, f2, f3);
+        msg = sprintf("⚠ Crack Detected!\nLocation: %s\nType: %s\nNumber of Cracks: %d\nReference Point: %s\nCrack Distances:\n%sReason: %s\n%s\nFrequencies:\nFreq1 = %.2f\nFreq2 = %.2f\nFreq3 = %.2f", ...
+            crackLoc{1}, crackType{1}, crackNumber, refPoint{1}, distMsg, crackReason{1}, modeMsg, f1, f2, f3);
     end
 
     resultArea.Value = msg;
