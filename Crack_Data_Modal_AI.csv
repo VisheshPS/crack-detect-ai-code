@@ -1,0 +1,362 @@
+SampleNo,CrackLocation,CrackType,Freq1,Freq2,Freq3,CrackReason,CrackPresent,NumberOfCracks,ReferencePoint,Crack1Distance(mm),Crack2Distance(mm),Crack3Distance(mm),Mode1Shape(mm),Mode2Shape(mm),Mode3Shape(mm)
+1,Rib 1,Transverse,63.29,281.56,419.9,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,1,Trailing Edge,23.6,,,95.76,277.8,442.74
+2,Rib 1,Through Thickness,61.44,271.65,379.3,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Trailing Edge,66.8,,,100.39,303.29,435.41
+3,Rib 1,Multiple Cracks,60.81,289.95,390.85,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Trailing Edge,31.4,49.8,19.4,108.68,335.85,512.1
+4,Lower Skin,Edge Crack,69.6,337.26,494.91,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,201.3,,,137.6,417.52,604.47
+5,Trailing Edge,Multiple Cracks,40.22,315.26,415.48,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Wing Root,294.5,23.6,,198.15,603.39,935.35
+6,Rib 1,Edge Crack,50.6,280.48,471.71,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Trailing Edge,14.6,,,93.167,41.79,82.753
+7,Lower Skin,Multiple Cracks,57.17,322.35,404.56,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Wing Root,242.2,198.3,,68.726,53.827,118.38
+8,Trailing Edge,Transverse,46.88,319.56,444.63,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,95,,,150.67,444.72,660.32
+9,Trailing Edge,Multiple Cracks,42.53,300.7,405.47,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,0,40.6,255.8,158.84,497.02,749.4
+10,Rib 1,Inclined,57.42,318.11,504.36,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Trailing Edge,84.8,,,78.44,245.11,363.8
+11,Trailing Edge,Edge Crack,61.65,285.15,405.3,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,140.7,,,190.73,545.67,833.38
+12,Trailing Edge,Multiple Cracks,58.64,261.79,506.43,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,140.3,162.1,23.22,169.13,533.05,842.12
+13,Trailing Edge,Inclined,43.08,321,390.72,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,194.5,,,131.99,385.78,575.38
+14,Spar 2,Inclined,40.21,289.5,410.18,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,77.7,,,98.32,311.05,492.74
+15,Trailing Edge,Inclined,48.79,305.82,435.79,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,101.4,,,131.8,385.58,574.62
+16,Trailing Edge,Through Thickness,52.28,319.05,374.62,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,259.7,,,180.64,575.42,893.11
+17,Rib 2 and Rib 3,Multiple Cracks,65.06,335.98,460.6,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,2,Trailing Edge,62.4,40.9,,91.4,291.98,417.76
+18,Rib 2,Transverse,60.53,326.49,371.17,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Trailing Edge,97.5,,,81.2,241.64,363.1
+19,Trailing Edge,Transverse,55.47,262.97,502.13,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,267.1,,,161.87,508,759.29
+20,Rib 6,Inclined,54.8,294.65,447.25,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Trailing Edge,95.6,,,83.61,239.97,349.09
+21,Trailing Edge,Edge Crack,63.41,268.97,477.65,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,246.1,,,193.06,600.55,861.63
+22,Spar 1,Multiple Cracks,45.71,284.32,435.52,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,62.6,0,222.4,131.39,417.5,641.79
+23,Spar 2,Inclined,68.66,334.15,477.06,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,127.8,,,80.57,257.28,393.65
+24,Spar 2,Edge Crack,44.78,294.13,503.96,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,120.9,,,128.19,362.53,565.04
+25,Spar 1,Multiple Cracks,50.68,301.85,459.2,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,127.7,223,273.2,134.7,385.03,574.21
+26,Leading Edge,V-Notch,50.61,268.70,426.43,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,46.7,,,164.6,482.07,689.88
+27,Leading Edge,V-Notch,49.41,351.77,355.77,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,53.7,,,131.6,383.49,593.91
+28,Rib 7,Inclined,47.68,318.61,447.96,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Trailing Edge,57.7,,,80.42,227.21,346.53
+29,Upper Skin,Transverse,56.13,279.73,410.79,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,250.6,,,110.55,315.73,479.89
+30,Trailing Edge,Inclined,40.13,320.48,426.98,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,50.7,,,149.85,461.87,714.19
+31,Lower Skin,Transverse,49.54,280.61,382.87,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,295.1,,,140.58,398.67,624.26
+32,Lower Skin,Through Thickness,69.04,296.79,462.69,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,247.5,,,132.49,395.3,606.5
+33,Upper Skin,Edge Crack,43.84,298.79,405.71,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,151.4,,,121.67,349.02,513.09
+34,Trailing Edge,Transverse,61.27,291.8,370.03,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,151.6,,,163.07,498.6,703.64
+35,Lower Skin,Edge Crack,58.96,331.95,486.46,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,208.3,,,131.95,403.97,613.35
+36,Rib 2,Through Thickness,50.96,304.7,428.41,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Trailing Edge,76.1,,,88.61,255.78,363.84
+37,Spar 2,Multiple Cracks,62.66,286.96,434.67,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,166.3,253.1,30.2,137.49,387.49,561.06
+38,Trailing Edge,Edge Crack,40.33,302.04,360.06,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,102.1,,,194.6,616.83,908.52
+39,Trailing Edge,Through Thickness,49.45,297.62,461.77,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,56.3,,,184.73,534.87,837.05
+40,Rib 3 and Rib 4,Multiple Cracks,62.25,267.31,417.12,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Trailing Edge,13.1,59.6,,96.89,304.13,425.83
+41,Upper Skin,Transverse,68.02,292.12,495.72,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,249.4,,,143.09,414.62,581.42
+42,Rib 2,Edge Crack,61.02,320.59,458.3,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Trailing Edge,44.2,,,95.76,302.36,439.92
+43,Rib 2,Multiple Cracks,58.21,281.68,486.78,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Trailing Edge,32.6,59,,83.63,247.84,351.18
+44,Leading Edge,V-Notch,52.93,321.09,427.32,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,56.1,,,143.71,428.94,662.06
+45,Leading Edge,V-Notch,67.64,302.54,436.73,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,106.3,,,144.96,422.54,661.65
+46,Upper Skin,Through Thickness,64.58,314.92,420.78,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,192.3,,,132.48,405.45,640.51
+47,Upper Skin,Through Thickness,40.15,290.74,369.14,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,106.7,,,124.71,357.82,538.02
+48,Rib 2,Through Thickness,65.06,330.45,470.12,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Trailing Edge,91.2,,,97.73,288.01,421.63
+49,Spar 2,Through Thickness,64.32,309.71,428.6,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,29.1,,,99.47,287.74,407.96
+50,Rib 2,Inclined,63.56,332.66,419.86,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Trailing Edge,66.9,,,65.63,194.25,282.82
+51,Lower Skin,Edge Crack,40.29,288.07,388.21,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,43.6,,,125.49,386.47,578.12
+52,Spar 1,Inclined,58.19,274.81,434.92,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,122.4,,,91.12,263.81,386.02
+53,Rib 5,Through Thickness,52.59,284.93,463.43,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Trailing Edge,20.1,,,86.44,248.32,385.19
+54,Spar 2,Transverse,65.58,272.13,485.63,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,277.9,,,93,273.92,398.7
+55,Lower Skin,Inclined,69.89,273.71,363.44,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,53.2,,,118.04,348.48,505.38
+56,Upper Skin,Transverse,55.03,327.03,400.68,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,108.1,,,139.68,416.63,640.61
+57,Leading Edge,V-Notch,54.63,242.98,401.55,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,93.1,,,128.64,361.06,576.33
+58,Upper Skin,Inclined,67.21,318.36,448.59,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,358.1,,,103.1,312.61,449.33
+59,Spar 1,Through Thickness,62.7,288.45,434.98,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,219.3,,,93.63,280.37,429.61
+60,Spar 2,Through Thickness,62.68,304.88,482.13,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,170.8,,,102.88,316.23,504.83
+61,Rib 6,Transverse,56.14,329.9,398.17,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Trailing Edge,64.1,,,73.92,215.6,326.62
+62,Spar 1,Transverse,61.62,331.48,431.6,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,2,Wing Root,302.6,,,90.9,267.82,427.29
+63,Trailing Edge,Multiple Cracks,56.98,316.44,381.84,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,1,Wing Root,203.7,45.4,,186.14,527.88,833.54
+64,Spar 2,Transverse,49.45,336.17,412.29,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,263.1,,,115.42,367.39,536.41
+65,Trailing Edge,Inclined,49.89,289.36,377.4,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,98.9,,,123.32,380.67,595.68
+66,Rib 2,Through Thickness,47.82,306.89,432.65,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,3,Trailing Edge,22.2,,,81.07,247.24,379.41
+67,Upper Skin,Multiple Cracks,64.8,263.23,391.1,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,1,Wing Root,40.5,100.2,106.3,131.27,372.35,560.52
+68,Lower Skin,Inclined,65.46,284.68,462.87,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,2,Wing Root,292.8,,,128.7,367.26,585.52
+69,Lower Skin,Multiple Cracks,46.95,332.17,437.1,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,1,Wing Root,199.3,208.6,,153.92,462.72,689.24
+70,Rib 2,Transverse,40.88,328.63,478.06,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Trailing Edge,88.9,,,77.76,224.12,355.84
+71,Leading Edge,V-Notch,65.32,335.68,361.62,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,77.0,,,150.81,455.3,639.64
+72,Spar 2,Through Thickness,46.58,272.46,415.88,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,224.5,,,105.94,300.28,447.34
+73,Lower Skin,Inclined,64.29,273.25,421.96,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,5.9,,,130.69,381.87,537.27
+74,Leading Edge,V-Notch,57.93,310.26,390.03,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,66.0,,,124.1,348.6,522.51
+75,Lower Skin,Edge Crack,58.39,263.38,440.13,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,245.2,,,124.04,362.34,551.45
+76,Upper Skin,Edge Crack,59.66,315.23,365.74,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,301.8,,,143.14,422.83,630.76
+77,Spar 1,Through Thickness,67.54,293.57,466.39,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,261.4,,,112.54,348.7,505.79
+78,Leading Edge,V-Notch,40.92,280.70,329.78,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,27.6,,,159.35,457.57,660.87
+79,Rib 2,Transverse,54.52,287.8,361.67,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Trailing Edge,62.2,,,80.26,238.28,375.87
+80,Trailing Edge,Inclined,65.13,261.82,499.43,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,54.3,,,138.94,389.43,603.36
+81,Lower Skin,Inclined,60.73,331.38,494.87,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,295.6,,,110.48,317.45,454.07
+82,Rib 3,Through Thickness,40.25,328.64,457.41,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Trailing Edge,44.6,,,77.96,219.51,330.74
+83,Leading Edge,V-Notch,46.40,294.87,365.68,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,53.4,,,150.7,447.36,713.42
+84,Lower Skin,Edge Crack,46.7,315.46,382.63,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,157.6,,,141.07,397.02,616.93
+85,Rib 2,Transverse,59.26,268.33,391.77,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Trailing Edge,13.2,,,84.69,252.64,374.23
+86,Spar 3,Transverse,46.74,334.78,388.2,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,174.9,,,117.91,362.13,521.19
+87,Spar 2,Multiple Cracks,41.02,314.61,418.81,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Wing Root,176.9,59.2,,129.98,389.58,609.4
+88,Spar 3,Inclined,46.49,303.6,467.13,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,161.2,,,104.72,304.27,463.45
+89,Leading Edge,V-Notch,58.37,348.73,396.28,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,50.0,,,131.2,397.3,582.67
+90,Rib 1,Inclined,46.65,285.61,472.49,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Trailing Edge,75.6,,,77.29,246.64,353.61
+91,Upper Skin,Inclined,68.53,328.83,444.06,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,3.3,,,110.95,344.55,489.08
+92,Spar 1,Inclined,43.73,335.56,397.58,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,164.5,,,81.88,234.29,343.61
+93,Spar 1,Through Thickness,68.84,270.59,373.74,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,40,,,94.93,277.89,390.02
+94,Trailing Edge,Multiple Cracks,53.66,310.67,483.68,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Wing Root,257,58.2,,193.17,573.7,887.47
+95,Spar 2,Inclined,40.63,309.11,467.16,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,71.9,,,82.17,252.43,367.62
+96,Spar 1,Inclined,41.14,278.13,394.15,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,114.1,,,85.2,245.05,356.91
+97,Spar 1,Through Thickness,44.48,271.09,500.17,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,227.7,,,101.63,292.56,450.46
+98,Spar 2,Transverse,55.15,321.59,483.84,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,127.9,,,111.53,325.85,480.62
+99,Spar 3,Inclined,51.96,318,423.62,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,224.7,,,95.91,294.87,423.39
+100,Upper Skin,Inclined,50.92,273,445.33,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,45.4,,,106.82,302.18,436.2
+101,No Crack,Base Model,75.45,286.11,553.70,NaN,No,0,-,-,-,-,25.6,25,25.08
+102,Rib 1,Transverse,54.96,313.67,385.88,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Trailing Edge,51.2,,,76.66,227.35,321.65
+103,Trailing edge,Transverse,54.96,313.65,386.24,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,202.9,,,174.87,509.38,772.72
+104,Rib 1,Multiple Cracks,54.91,312.35,366.95,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Trailing Edge,2.1,44.2,,88.78,272.64,423.16
+105,Leading Edge,V-Notch,55.44,335.45,443.89,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,23.0,,,136.1,387.35,606.41
+106,Leading Edge,V-Notch,55.42,296.15,349.14,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,89.0,,,138.36,411.25,619.13
+107,Leading Edge,V-Notch,51.32,316.34,394.59,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,18.6,,,140.31,406.05,605.75
+108,Rib 1,X-Crack,54.96,312.59,369.72,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,60.5,,,71.37,206.85,300.45
+109,Rib 1,Irregular,55.96,312.19,385.27,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,92.7,,,76.39,224.81,329.04
+110,Upper Skin,Surface Crack,74.82,285.67,552.9,Stress Concentration at the Rib Junction,Yes,2,Wing Root,120.4,240.8,,107.38,320.32,468.58
+111,Rib 2,Transverse,68.98,371.40,366.72,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Trailing Edge,94.9,,,84.74,253.78,391.09
+112,Leading Edge,V-Notch,53.74,281.52,399.47,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,69.4,,,147.32,443.75,706.05
+113,Leading Edge,V-Notch,61.67,337.28,394.78,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,44.8,,,151.35,472.55,698.83
+114,Upper Skin,Transverse,52.13,363.36,331.27,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,106.8,,,115.19,346.5,548.13
+115,Upper Skin,Transverse,57.85,340.86,363.27,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,121.9,,,105.97,297.4,443.11
+116,Spar 3,Transverse,51.73,318.41,423.89,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,147.1,,,120.9,372.64,538.49
+117,Rib 2,Transverse,61.27,296.55,361.88,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Trailing Edge,99.5,,,86.98,265.35,424.27
+118,Leading Edge,V-Notch,62.78,332.28,344.73,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,15.9,,,131.02,373.13,581.2
+119,Upper Skin,Transverse,52.38,294.50,369.48,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,239.5,,,141.37,404.28,595.63
+120,Rib 2,Transverse,68.83,290.68,371.14,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Trailing Edge,97.2,,,79.79,243.38,382.82
+121,Spar 1,Transverse,62.74,298.99,456.70,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,2,Wing Root,300.2,,,94.91,288.13,440.04
+122,Trailing edge,Transverse,42.35,338.34,395.41,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,169.9,,,136.01,405.51,578.47
+123,Rib 2,Transverse,52.54,305.77,386.85,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Trailing Edge,74.7,,,86.89,248.88,394.45
+124,Leading Edge,V-Notch,55.28,292.55,389.55,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,23.5,,,164.39,486.72,766.56
+125,Leading Edge,V-Notch,50.45,288.68,380.21,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,52.3,,,156.2,474.85,714.32
+126,Rib 3,Through Thickness,38.93,376.30,440.39,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Trailing Edge,57.3,,,84.03,245.7,382.09
+127,Rib 5,Through Thickness,45.26,286.68,441.63,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Trailing Edge,18.8,,,82.71,256.84,401.85
+128,Lower Skin,Through Thickness,66.46,304.24,486.11,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,286.8,,,138.32,426.3,617.95
+129,Leading Edge,V-Notch,54.97,313.66,384.11,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,302.5,,,164.11,471.82,710.28
+130,Spar 2,Through Thickness,58.26,274.53,432.21,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,26.8,,,102.01,314.69,480.57
+131,Rib 5,Through Thickness,50.37,297.59,398.61,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Trailing Edge,18.6,,,82.85,250.98,371.19
+132,Upper Skin,Through Thickness,42.99,250.66,437.36,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,116.6,,,146.28,431.45,650.9
+133,Rib 2,Through Thickness,57.75,289.07,462.70,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Trailing Edge,77.0,,,91.73,271.58,386.15
+134,Spar 1,Through Thickness,38.00,264.12,558.53,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,191.2,,,120.3,345.79,532.56
+135,Rib 3,Through Thickness,39.85,392.29,503.11,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Trailing Edge,42.8,,,96.68,272.47,413.79
+136,Rib 2,Through Thickness,48.69,329.30,380.54,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,3,Trailing Edge,19.9,,,99.57,312.49,462.8
+137,Rib 2,Through Thickness,60.93,332.28,487.28,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Trailing Edge,94.5,,,83.69,265.27,414.59
+138,Leading Edge,V-Notch,58.76,306.58,409.48,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,302.2,,,148.89,466.52,718.81
+139,Spar 1,Through Thickness,63.01,279.62,422.39,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,215.0,,,125.72,396.73,632.01
+140,Spar 2,Through Thickness,62.40,344.92,396.85,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,31.0,,,124.55,372.93,570.92
+141,Spar 2,Through Thickness,56.95,265.14,412.23,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,33.0,,,103.61,328.6,524.17
+142,Trailing Edge,Through Thickness,49.40,291.13,383.49,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,49.8,,,171.26,543.55,780.63
+143,Trailing Edge,Through Thickness,42.10,336.30,374.61,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,280.9,,,162.18,487.73,759.74
+144,Spar 1,Through Thickness,62.95,373.15,406.56,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,242.9,,,98.41,310.77,486.81
+145,Trailing Edge,Multiple Cracks,57.09,366.29,398.10,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Wing Root,218.8,58.2,,174.72,508.51,755.24
+146,Trailing Edge,Multiple Cracks,45.78,330.39,375.44,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Wing Root,300.8,23.6,,156.84,475.12,745.29
+147,Spar 2,Multiple Cracks,39.83,279.13,426.31,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Wing Root,190.1,59.2,,133.38,380.77,579.9
+148,Spar 2,Multiple Cracks,36.51,345.24,381.79,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Wing Root,153.2,59.2,,120.35,348.03,503.62
+149,Trailing Edge,Multiple Cracks,49.33,258.82,539.73,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,144.7,162.1,22.5,175.35,495.74,754.85
+150,Rib 2,Multiple Cracks,57.68,244.69,473.14,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Trailing Edge,35.2,59,,99.16,283.78,438.93
+151,Lower Skin,Multiple Cracks,54.56,237.79,454.31,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Wing Root,232.5,198.3,,122.84,369.91,531.24
+152,Upper Skin,Multiple Cracks,71.02,252.17,361.79,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,1,Wing Root,37.2,100.2,101.9,127.86,389.89,591.13
+153,Trailing Edge,Multiple Cracks,56.68,244.82,369.02,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,1,Wing Root,168.0,45.4,,156.8,450.9,706.86
+154,Spar 1,Multiple Cracks,47.29,321.03,363.83,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,55.9,0,226.0,132.33,403.79,640.71
+155,Trailing Edge,Multiple Cracks,36.56,296.90,518.44,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Wing Root,290.2,23.6,,196.12,583.66,920.54
+156,Rib 1,Multiple Cracks,53.56,363.23,425.86,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Trailing Edge,1.4,44.2,,86.49,271.51,433.85
+157,Spar 1,Multiple Cracks,55.58,323.66,458.82,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,128.8,223,228.0,137.29,386.14,543.47
+158,Trailing Edge,Multiple Cracks,52.91,276.48,478.46,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Wing Root,284.8,58.2,,202.66,583.9,880.62
+159,Trailing Edge,Multiple Cracks,59.94,373.20,382.08,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,1,Wing Root,178.6,45.4,,158.43,444.64,650.99
+160,Lower Skin,Multiple Cracks,50.94,357.44,446.85,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,1,Wing Root,171.0,208.6,,124.11,379,554.03
+161,Upper Skin,Multiple Cracks,60.77,243.22,400.43,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,1,Wing Root,38.3,100.2,116.6,142.06,400.12,578.79
+162,Trailing Edge,Multiple Cracks,44.63,245.05,407.65,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,0.0,40.6,221.8,198.95,567.26,882.17
+163,Spar 1,Multiple Cracks,45.97,268.02,472.52,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,60.1,0,273.0,120.24,381.85,541.3
+164,Spar 1,Multiple Cracks,53.83,301.74,445.50,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,124.0,223,272.0,104.43,300.03,443.32
+165,Spar 2,Multiple Cracks,64.81,315.42,414.51,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Wing Root,152.9,253.1,29.2,117.92,375.27,593.95
+166,Rib 1,Multiple Cracks,73.04,252.16,414.26,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,3,Trailing Edge,27.6,49.8,18.3,109.16,343.97,520.8
+167,Rib 3 and Rib 4,Multiple Cracks,64.84,291.50,399.26,Indicates widespread material degradation or repeated cyclic stresses; may arise due to poor manufacturing or long-term fatigue.,Yes,2,Trailing Edge,14.3,59.6,,104.38,304.63,481.33
+168,Trailing Edge,Edge Crack,50.08,280.03,463.38,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,120.5,,,152.93,465.86,718.1
+169,Lower Skin,Edge Crack,32.76,263.04,401.31,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,50.1,,,135.16,385.28,542.51
+170,Leading Edge,V-Notch,61.79,352.68,397.85,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,301.9,,,154.69,485.3,716.43
+171,Upper Skin,Edge Crack,56.04,314.77,367.48,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,265.3,,,133.16,418.62,611.43
+172,Lower Skin,Edge Crack,38.85,224.67,314.33,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,45.9,,,151.53,442.34,656.18
+173,Leading Edge,V-Notch,50.78,331.51,379.78,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,299.9,,,132.47,401.92,592.64
+174,Lower Skin,Edge Crack,48.05,301.34,431.77,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,146.9,,,144.61,432.52,667.83
+175,Upper Skin,Edge Crack,43.69,308.76,376.55,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,137.6,,,135.82,433.13,648.18
+176,Spar 2,Edge Crack,41.97,353.52,536.48,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,115.4,,,121.6,367.86,521.55
+177,Upper Skin,Edge Crack,65.93,378.64,404.26,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,288.3,,,139.12,398.04,605.21
+178,Leading Edge,V-Notch,57.34,351.33,411.18,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,299.7,,,151.71,473.9,669.94
+179,Rib 1,Edge Crack,49.14,269.35,429.25,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Trailing Edge,13.2,,,89.46,265.61,382.57
+180,Lower Skin,Edge Crack,57.09,292.29,514.53,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,220.2,,,121.09,383.05,545.41
+181,Lower Skin,Edge Crack,39.26,282.89,327.82,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,46.9,,,154.43,477.71,670.52
+182,Trailing Edge,Edge Crack,61.47,275.13,425.55,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,137.2,,,149.62,444.34,704.5
+183,Upper Skin,Edge Crack,48.14,274.39,313.71,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,172.5,,,124.02,386.07,604.24
+184,Rib 1,Edge Crack,53.28,332.65,474.32,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Trailing Edge,15.8,,,80.13,243.38,377.72
+185,Leading Edge,V-Notch,57.40,313.35,416.40,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,296.9,,,159.1,449.66,662.22
+186,Lower Skin,Edge Crack,58.14,390.54,397.88,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,209.3,,,134.38,407.61,620.89
+187,Spar 2,Edge Crack,44.59,333.51,589.67,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,126.4,,,111.25,343.21,523.49
+188,Trailing Edge,Edge Crack,53.16,244.97,497.91,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,276.9,,,144.75,426.67,655.61
+189,Trailing Edge,Edge Crack,35.73,251.36,430.71,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,104.6,,,160.85,469.62,732.65
+190,Leading Edge,V-Notch,62.16,297.41,379.88,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,296.9,,,143.26,424.38,620.07
+191,Lower Skin,Edge Crack,49.34,293.39,402.80,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,178.8,,,136.88,409.23,576.38
+192,Upper Skin,Edge Crack,48.83,267.56,393.92,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,155.4,,,135.41,415.03,652.85
+193,Rib 6,Inclined,54.16,300.06,421.05,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Trailing Edge,94.0,,,78.74,248.98,379.39
+194,Spar 1,Inclined,37.03,375.58,374.02,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,133.9,,,99.42,299.03,458.72
+195,Trailing Edge,Inclined,65.09,261.83,550.50,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,60.8,,,142.1,422.48,634.55
+196,Spar 3,Inclined,43.06,259.34,519.17,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,159.3,,,108.17,313.02,479.88
+197,Spar 2,Inclined,42.77,328.90,378.52,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,80.6,,,92.83,281.24,418.07
+198,Rib 2,Inclined,69.11,336.66,369.27,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Trailing Edge,63.4,,,86.35,266.17,386.4
+199,Rib 1,Inclined,37.83,280.96,519.48,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Trailing Edge,80.6,,,76.19,238.88,351.02
+200,Spar 1,Inclined,47.63,338.37,388.32,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,175.1,,,98.21,275.7,418.86
+201,Upper Skin,Inclined,68.86,291.62,377.41,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,302.9,,,124.58,367.65,576.83
+202,Upper Skin,Inclined,62.20,292.12,494.00,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,3.0,,,115.01,367.48,526.55
+203,Spar 1,Inclined,34.19,337.13,402.76,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,182.2,,,82.89,257.48,399.35
+204,Lower Skin,Inclined,64.19,287.41,380.43,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,52.0,,,107.74,328.64,524.14
+205,Spar 1,Inclined,40.63,291.50,486.88,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,112.3,,,83.56,242.67,342.41
+206,Trailing Edge,Inclined,36.89,320.12,469.15,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,43.6,,,148.01,425.73,680.38
+207,Leading Edge,Edge Crack,61.07,303.78,362.25,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,296.5,,,152.84,464.78,671.97
+208,Rib 1,Irregular,61.64,331.45,310.91,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,86.0,,,74.48,221.07,314.03
+209,Rib 1,Irregular,55.43,306.89,402.32,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,96.2,,,73.11,228.72,340.57
+210,Leading Edge,V-Notch,51.38,313.82,377.89,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,290.9,,,160.7,504.78,749.12
+211,Rib 1,Irregular,52.21,341.12,360.02,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,10.2,,,82.22,257.19,391.55
+212,Leading Edge,V-Notch,45.70,277.50,396.33,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,288.6,,,123.4,367.93,565.11
+213,Rib 1,Irregular,54.05,283.04,387.31,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,94.3,,,81.24,237.21,366.84
+214,Leading Edge,Edge Crack,54.15,282.07,385.98,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,286.5,,,171.03,518.93,740.37
+215,Rib 1,Irregular,52.81,343.80,378.87,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,89.5,,,79.45,246.14,379.55
+216,Rib 1,Irregular,55.83,308.13,383.42,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,73.9,,,85.85,253.61,404.46
+217,Rib 1,Irregular,51.98,306.05,385.78,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,80.4,,,81.45,235.01,374.18
+218,Rib 1,Irregular,56.55,299.76,327.42,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,11.4,,,75.86,238.66,361.79
+219,Leading Edge,V-Notch,63.10,352.66,342.58,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,285.9,,,142.33,439.87,656.86
+220,Rib 1,Irregular,59.38,305.22,384.75,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,90.5,,,65.06,200.28,301.45
+221,Leading Edge,V-Notch,53.98,278.09,418.46,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,283.3,,,154.66,448.25,651.59
+222,Rib 1,Irregular,59.20,321.15,358.36,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,96.9,,,83.86,237.02,361.75
+223,Rib 1,Irregular,48.15,365.31,390.08,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,99.0,,,68.94,215.13,307.61
+224,Leading Edge,V-Notch,61.40,288.38,378.64,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,282.9,,,151.97,473.39,705.03
+225,Rib 1,Irregular,58.50,318.22,379.34,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,36.4,,,69.48,217.32,313.8
+226,Rib 1,Irregular,51.75,283.68,300.00,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,91.3,,,80.06,238.94,347.28
+227,Leading Edge,V-Notch,60.02,309.04,385.97,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,281.9,,,149.69,469.07,695.36
+228,Leading Edge,V-Notch,43.10,223.77,349.97,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,281.6,,,133.17,393.72,573.31
+229,Leading Edge,V-Notch,55.33,294.70,374.96,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,279.3,,,124.59,394.51,621.52
+230,Leading Edge,V-Notch,56.00,288.29,423.45,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,275.7,,,140.49,404.43,584.26
+231,Leading Edge,V-Notch,46.52,293.26,346.39,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,272.9,,,134.15,405.18,624.14
+232,Rib 1,Irregular,56.48,334.59,415.19,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,10.0,,,86.6,275.46,401.77
+233,Rib 1,Irregular,55.98,293.14,401.46,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,95.3,,,84.47,237.28,340.93
+234,Leading Edge,Through Thickness,65.64,274.20,467.21,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,263.2,,,160.79,465.59,668.06
+235,Rib 1,Irregular,54.97,278.57,406.92,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,11.0,,,85.73,258.99,407.9
+236,Rib 1,Irregular,57.06,330.54,417.72,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,77.6,,,72.27,225.69,334.62
+237,Leading Edge,V-Notch,56.97,404.50,432.88,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,262.2,,,147.37,440.57,670.19
+238,Rib 1,Irregular,57.05,276.60,456.16,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,15.9,,,77.34,224.76,324.16
+239,Rib 1,Irregular,65.30,280.35,374.83,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,89.6,,,66.4,190.74,269.97
+240,Rib 1,Irregular,52.78,329.03,357.72,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,98.1,,,73.29,226.77,319.52
+241,Rib 1,Irregular,64.14,303.19,379.93,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,87.1,,,76.09,215.57,304.98
+242,Rib 1,Irregular,56.67,280.91,367.44,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,83.4,,,77.16,221.17,335.21
+243,Leading Edge,Edge Crack,51.53,301.85,377.00,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,261.1,,,147.52,428.79,620.27
+244,Rib 1,Irregular,57.72,281.76,423.45,Likely from stress concentration and fatigue around a fastener or service hole.,Yes,1,Trailing Edge,100.0,,,64.84,191.41,290.52
+245,Leading Edge,V-Notch,58.59,326.50,414.47,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,259.5,,,160.64,487.1,764.09
+246,Leading Edge,V-Notch,50.09,316.59,365.13,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,259.0,,,162.65,520.37,831.97
+247,Leading Edge,Through Thickness,55.88,278.37,389.29,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,257.3,,,172.03,523.67,798.64
+248,Leading Edge,Edge Crack,67.37,279.67,387.21,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,256.1,,,162.04,490.83,772.98
+249,Leading Edge,V-Notch,58.02,319.28,326.35,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,254.4,,,141.27,397.6,560.63
+250,Leading Edge,Transverse,53.55,324.65,428.85,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,253,,,148.88,432.72,676.16
+251,Leading Edge,Through Thickness,55,266.4,489.71,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,245.2,,,174.67,546.35,813.3
+252,Leading Edge,Edge Crack,47.10,269.28,396.78,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,241.0,,,147.45,469.32,666.19
+253,Leading Edge,V-Notch,50.04,360.52,372.63,"Caused by high-cycle fatigue or stress concentration from aerodynamic loads, initiating a notch-shaped crack.",Yes,1,Wing Root,236.8,,,156.06,466.42,698.56
+254,Leading Edge,Transverse,51.37,308.72,403.06,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,231.5,,,166.2,501.43,736.72
+255,Leading Edge,Transverse,57.38,304.31,392.39,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,212.9,,,162.42,513.97,757.59
+256,Leading Edge,Transverse,45.66,310.29,429.58,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,208.5,,,178.09,531.52,811.09
+257,Leading Edge,Edge Crack,44.21,266.04,440.37,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,208.3,,,178.52,521.39,746.65
+258,Leading Edge,Through Thickness,57.63,329.95,462.67,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,204,,,163.52,492.09,780.9
+259,Leading Edge,Transverse,50.95,293.84,307.03,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,200.5,,,133.72,374.53,590
+260,Leading Edge,Transverse,50.87,333.68,379.52,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,198.6,,,134.01,383.81,591.7
+261,Leading Edge,Edge Crack,45.68,302.69,491.51,"Usually caused by surface damage, stress concentration at fasteners, or fatigue from repeated loading near the edge.",Yes,1,Wing Root,194.0,,,177.87,558.04,799.03
+262,Leading Edge,Transverse,53.08,339.96,426.72,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,174.6,,,168.28,487.39,692.76
+263,Leading Edge,Transverse,57.07,313.57,387.38,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,160.3,,,158.23,495.48,756.77
+264,Leading Edge,Transverse,53.1,334.67,432.05,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,154.1,,,167.13,531.61,841.94
+265,Leading Edge,Transverse,58.21,318.78,425.14,Formed perpendicular to the load direction due to tensile stress; common in brittle failure modes.,Yes,1,Wing Root,153.8,,,175.06,504.18,796.93
+266,Leading Edge,Irregular,45.85,330.96,320.21,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,116.5,,,163.68,493.66,782.62
+267,Leading Edge,Irregular,45.40,300.96,439.29,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,114.7,,,137.47,406.79,647.41
+268,Leading Edge,Irregular,45.33,259.17,433.78,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,111.5,,,135.69,418.21,661.06
+269,Leading Edge,Irregular,50.53,302.38,432.95,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,108.3,,,142.06,438.54,621.49
+270,Leading Edge,Irregular,54.63,241.11,354.50,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,108.0,,,145.41,456.21,724.51
+271,Leading Edge,Irregular,53.47,287.51,417.43,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,102.7,,,155.56,454.3,665.48
+272,Leading Edge,Irregular,45.16,321.32,383.78,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,102.5,,,139.02,399.9,627.2
+273,Leading Edge,Through Thickness,54.96,313.61,384.20,"Results from severe fatigue, impact loading, or poor material quality; crack propagates through the full thickness of the component.",Yes,1,Wing Root,101.7,,,143.64,439.29,623.83
+274,Leading Edge,Irregular,57.98,319.32,365.50,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,100.5,,,141.15,409.35,590.13
+275,Leading Edge,Irregular,55.95,312.18,385.27,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,100.5,,,141.11,429.25,601.1
+276,Leading Edge,Irregular,51.36,303.09,424.83,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,99.0,,,157.54,464.68,681.28
+277,Leading Edge,Irregular,62.55,314.72,438.24,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,98.8,,,162.91,482,739.17
+278,Leading Edge,Irregular,49.80,344.50,407.14,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,98.2,,,145.37,440.35,630.23
+279,Leading Edge,Irregular,46.42,293.48,419.64,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,97.9,,,124.9,390.87,562.47
+280,Leading Edge,Irregular,55.25,276.26,353.44,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,93.5,,,163.53,513.46,781.66
+281,Leading Edge,Irregular,52.56,283.32,416.60,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,93.3,,,125.49,382.15,575.44
+282,Leading Edge,Irregular,51.26,308.39,401.75,"Likely due to foreign object impact (bird strike, debris) causing localized circular damage.",Yes,1,Wing Root,81.8,,,127.97,382.66,543.74
+283,Leading Edge,Inclined,65.25,275.2,499.83,"Typically caused by combined loading conditions or shear stress, leading to angled crack propagation.",Yes,1,Wing Root,59.7,,,154.13,439.77,690.23
+284,Rib 1,X-Crack,55.15,335.06,387.96,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,47.0,,,80.87,243.83,378.18
+285,Rib 1,X-Crack,57.14,333.41,389.87,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,64.3,,,77.38,245.46,368.54
+286,Rib 1,X-Crack,51.81,335.33,405.63,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,58.0,,,83.55,239.93,368.21
+287,Rib 1,X-Crack,55.71,284.75,365.12,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,56.9,,,76.92,232.05,329.02
+288,Rib 1,X-Crack,57.12,360.33,341.40,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,66.9,,,71.57,207.18,295.66
+289,Rib 1,X-Crack,48.69,304.44,458.11,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,53.7,,,82.15,257.8,381.21
+290,Rib 1,X-Crack,53.51,331.84,309.05,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,51.1,,,83.21,259.23,370.65
+291,Rib 1,X-Crack,53.69,297.97,364.73,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,69.2,,,71.96,217.14,315.52
+292,Rib 1,X-Crack,54.60,325.24,362.14,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,57.1,,,71.99,214.64,319.07
+293,Rib 1,X-Crack,58.77,359.28,260.35,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,69.0,,,64.19,202.17,316.78
+294,Rib 1,X-Crack,66.99,321.07,349.00,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,64.1,,,69.29,203.08,302.89
+295,Rib 1,X-Crack,64.46,329.88,395.04,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,58.3,,,66.62,190.51,279.57
+296,Rib 1,X-Crack,56.74,325.47,385.99,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,55.2,,,68.41,217.76,341.63
+297,Rib 1,X-Crack,59.40,344.38,395.09,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,48.7,,,85.87,243.5,368.94
+298,Rib 1,X-Crack,47.97,281.82,344.57,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,62.1,,,86.73,272.57,411.49
+299,Rib 1,X-Crack,52.07,269.46,330.86,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,62.4,,,72.33,230.78,347.65
+300,Rib 1,X-Crack,60.17,264.03,377.80,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,59.4,,,81.95,252.88,364.78
+301,Rib 1,X-Crack,51.60,280.70,450.17,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,62.8,,,66.06,186.49,292.03
+302,Rib 1,X-Crack,51.01,364.90,275.08,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,62.1,,,86.9,263.38,386.22
+303,Rib 1,X-Crack,50.52,343.98,376.56,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,68.0,,,67.98,204.7,308.68
+304,Rib 1,X-Crack,50.40,317.98,357.69,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,59.8,,,73.43,217.63,319.29
+305,Rib 1,X-Crack,61.22,344.11,357.37,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,52.0,,,81.22,240.46,370.41
+306,Rib 1,X-Crack,54.92,359.22,369.75,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,57.4,,,65.83,191.18,297.22
+307,Rib 1,X-Crack,60.93,314.69,388.94,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,66.8,,,69.75,203.32,286.42
+308,Rib 1,X-Crack,54.01,288.45,437.85,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,63.5,,,67.28,206.21,317.17
+309,Rib 1,X-Crack,63.65,289.04,401.26,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,59.5,,,85.7,258.96,408.92
+310,Rib 1,X-Crack,56.32,319.28,349.64,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,52.8,,,80.71,245.84,363.23
+311,Rib 1,X-Crack,49.71,303.69,276.46,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,53.0,,,82.53,238.32,354.99
+312,Rib 1,X-Crack,54.12,287.30,373.78,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,61.4,,,66.43,202.78,300.51
+313,Rib 1,X-Crack,54.56,291.76,330.05,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,54.5,,,69.65,207.96,329.74
+314,Rib 1,X-Crack,49.24,288.30,382.84,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,62.4,,,69.49,218.71,308.36
+315,Rib 1,X-Crack,59.64,365.48,405.64,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,57.5,,,84.21,256.42,359.59
+316,Rib 1,X-Crack,52.97,390.00,379.35,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,59.4,,,83.4,266.64,377.07
+317,Rib 1,X-Crack,44.89,313.27,398.48,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,59.7,,,67.97,208.7,303.22
+318,Rib 1,X-Crack,52.15,314.12,337.37,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,64.9,,,79.4,224.8,352.99
+319,Rib 1,X-Crack,53.05,325.14,268.74,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,53.9,,,71.02,217.6,318.85
+320,Rib 1,X-Crack,40.92,308.58,390.41,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,54.3,,,70.51,222.42,317.2
+321,Rib 1,X-Crack,55.38,331.41,340.29,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,68.6,,,74.77,225.9,355.55
+322,Rib 1,X-Crack,60.45,343.09,353.39,Typically from intersecting fatigue cracks due to combined bending and torsion stresses.,Yes,1,Trailing Edge,65.7,,,75.53,237.05,373.95
+323,Upper Skin,Surface Crack,72.65,273.82,523.69,Stress Concentration at the Rib Junction,Yes,2,Wing Root,120.3,240.8,,97.68,303.89,472.04
+324,Upper Skin,Surface Crack,70.29,279.96,665.97,Stress Concentration at the Rib Junction,Yes,2,Wing Root,123.0,240.8,,118,336.32,516.2
+325,Upper Skin,Surface Crack,77.98,274.63,552.28,Stress Concentration at the Rib Junction,Yes,2,Wing Root,117.9,240.8,,121.25,355.17,512.42
+326,Upper Skin,Surface Crack,61.72,344.10,474.73,Stress Concentration at the Rib Junction,Yes,2,Wing Root,128.2,240.8,,106.04,319,491.22
+327,Upper Skin,Surface Crack,73.49,312.88,505.50,Stress Concentration at the Rib Junction,Yes,2,Wing Root,109.5,240.8,,110.86,328.73,490.88
+328,Upper Skin,Surface Crack,75.72,285.75,556.81,Stress Concentration at the Rib Junction,Yes,2,Wing Root,123.5,240.8,,116.29,342.53,486.37
+329,Upper Skin,Surface Crack,82.31,312.50,557.22,Stress Concentration at the Rib Junction,Yes,2,Wing Root,123.4,240.8,,111.43,343.06,520.65
+330,Upper Skin,Surface Crack,79.40,287.72,564.76,Stress Concentration at the Rib Junction,Yes,2,Wing Root,112.9,240.8,,131.51,396.01,565.01
+331,Upper Skin,Surface Crack,78.52,261.11,505.18,Stress Concentration at the Rib Junction,Yes,2,Wing Root,123.2,240.8,,105.52,298.83,438.3
+332,Upper Skin,Surface Crack,76.60,261.19,561.16,Stress Concentration at the Rib Junction,Yes,2,Wing Root,132.2,240.8,,112.38,347.63,509.24
+333,Upper Skin,Surface Crack,72.34,251.92,475.86,Stress Concentration at the Rib Junction,Yes,2,Wing Root,129.2,240.8,,101.88,313.71,498.22
+334,Upper Skin,Surface Crack,76.76,326.61,532.29,Stress Concentration at the Rib Junction,Yes,2,Wing Root,90.8,240.8,,121.94,349.42,558.46
+335,Upper Skin,Surface Crack,59.44,247.61,522.39,Stress Concentration at the Rib Junction,Yes,2,Wing Root,107.1,240.8,,103.67,308.02,488.26
+336,Upper Skin,Surface Crack,80.44,335.93,563.11,Stress Concentration at the Rib Junction,Yes,2,Wing Root,98.4,240.8,,117.5,347.5,498.83
+337,Upper Skin,Surface Crack,66.86,275.30,513.39,Stress Concentration at the Rib Junction,Yes,2,Wing Root,121.9,240.8,,114.32,342.71,531.03
+338,Upper Skin,Surface Crack,81.45,270.10,498.67,Stress Concentration at the Rib Junction,Yes,2,Wing Root,109.6,240.8,,128.23,407.37,640.39
+339,Upper Skin,Surface Crack,75.58,291.13,486.47,Stress Concentration at the Rib Junction,Yes,1,Wing Root,122.3,240.8,,121.24,345.69,490.05
+340,Upper Skin,Surface Crack,73.47,253.97,615.38,Stress Concentration at the Rib Junction,Yes,2,Wing Root,141.8,240.8,,131.92,412.94,654.46
+341,Upper Skin,Surface Crack,74.38,255.26,487.06,Stress Concentration at the Rib Junction,Yes,2,Wing Root,121.3,240.8,,123.74,392.94,590.92
+342,Upper Skin,Surface Crack,70.25,311.02,603.91,Stress Concentration at the Rib Junction,Yes,2,Wing Root,105.0,240.8,,108.39,315.54,500.07
+343,Upper Skin,Surface Crack,77.07,251.91,501.15,Stress Concentration at the Rib Junction,Yes,2,Wing Root,97.2,240.8,,122.54,391.37,578.59
+344,Upper Skin,Surface Crack,71.14,304.79,531.63,Stress Concentration at the Rib Junction,Yes,2,Wing Root,106.8,240.8,,111.63,320.04,497.01
+345,Upper Skin,Surface Crack,85.31,282.43,597.51,Stress Concentration at the Rib Junction,Yes,2,Wing Root,107.1,240.8,,102.8,307.09,472.97
+346,Upper Skin,Surface Crack,73.61,258.15,519.81,Stress Concentration at the Rib Junction,Yes,2,Wing Root,129.7,240.8,,117.96,373.3,593.02
+347,Upper Skin,Surface Crack,68.85,303.29,457.27,Stress Concentration at the Rib Junction,Yes,2,Wing Root,124.9,240.8,,118.02,339.05,538.59
+348,Upper Skin,Surface Crack,61.90,287.02,600.60,Stress Concentration at the Rib Junction,Yes,2,Wing Root,116.4,240.8,,126.57,368.65,559.28
+349,Upper Skin,Surface Crack,59.90,273.16,522.88,Stress Concentration at the Rib Junction,Yes,2,Wing Root,113.4,240.8,,99.34,282.02,448.94
+350,Upper Skin,Surface Crack,67.06,294.52,552.43,Stress Concentration at the Rib Junction,Yes,2,Wing Root,110.9,240.8,,97.99,278.67,443.45
+351,Upper Skin,Surface Crack,70.02,248.34,596.70,Stress Concentration at the Rib Junction,Yes,2,Wing Root,129.4,240.8,,106.01,298.54,458.75
+352,Upper Skin,Surface Crack,76.29,276.11,514.52,Stress Concentration at the Rib Junction,Yes,2,Wing Root,125.1,240.8,,111.21,317.5,492.93
+353,Upper Skin,Surface Crack,67.00,260.95,535.70,Stress Concentration at the Rib Junction,Yes,2,Wing Root,119.7,240.8,,122.79,382.19,558.2
+354,Upper Skin,Surface Crack,82.72,278.20,580.71,Stress Concentration at the Rib Junction,Yes,2,Wing Root,105.4,240.8,,106.1,322.62,475.76
+355,Upper Skin,Surface Crack,85.60,306.12,450.76,Stress Concentration at the Rib Junction,Yes,2,Wing Root,133.5,240.8,,126.98,402.76,590.52
+356,Upper Skin,Surface Crack,86.64,279.42,539.84,Stress Concentration at the Rib Junction,Yes,2,Wing Root,115.2,240.8,,104.11,330.36,470.45
+357,Upper Skin,Surface Crack,80.85,275.59,511.80,Stress Concentration at the Rib Junction,Yes,2,Wing Root,115.5,240.8,,130.88,417.79,607.98
+358,Upper Skin,Surface Crack,83.38,259.50,561.39,Stress Concentration at the Rib Junction,Yes,2,Wing Root,110.7,240.8,,122.14,381.23,582.25
+359,Upper Skin,Surface Crack,68.13,281.50,531.89,Stress Concentration at the Rib Junction,Yes,2,Wing Root,104.1,240.8,,104.45,316.86,466.98
+360,Upper Skin,Surface Crack,68.74,265.26,542.23,Stress Concentration at the Rib Junction,Yes,2,Wing Root,109.8,240.8,,107.46,323.54,505.58
+361,Upper Skin,Surface Crack,60.11,274.18,465.64,Stress Concentration at the Rib Junction,Yes,2,Wing Root,138.3,240.8,,103.48,300.29,461.81
